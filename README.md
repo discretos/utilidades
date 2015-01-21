@@ -1,4 +1,4 @@
-<h1>Implementação de algums funções utilitárias para os nossos projectos</h1>
+<h1>Implementação de algumas funções utilitárias para os nossos projectos</h1>
 
 <br><br>
 Conteúdo de <code>conjuntos/descricao.txt</code>
