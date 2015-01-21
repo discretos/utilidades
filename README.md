@@ -1,5 +1,9 @@
-Implementação de algums funções utilitárias para os nossos projectos
+<h1>Implementação de algums funções utilitárias para os nossos projectos</h1>
 
+<br><br>
+Conteúdo de <code>conjuntos/descricao.txt</code>
+
+<br>
 <b>Teoria dos conjuntos</b>
 
 Tal como as listas, os conjuntos são um agrupamento de elementos diferentes
