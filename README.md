@@ -17,7 +17,7 @@ Esta função deve verficar se o elemento <code>x</code> pertence ao conjunto <c
 
 b) <code>interseccao(A, B)</code> <br />
 Esta função retorna o conjunto intersecção entre os conjuntos <code>A</code> e <code>B</code><br/><br/>
-<br><br>
+
 <pre><code>
 //Exemplo em C
 /*
@@ -46,8 +46,8 @@ void interseccao(int *A, int *B, int tamanhoA, int tamanhoB){
 	else tamanho = tamanhoA;
 
 	int *inters = (int *)malloc(tamanho*sizeof(int));
-	for (i=0;i<tamanhoA;i++){
-		for (j=0;j<tamanhoB;j++){
+	for (i=0;i&lt;tamanhoA;i++){
+		for (j=0;j&lt;tamanhoB;j++){
 			if (A[i] == B[j]) inters[k++]=B[j];
 		}
 	}
@@ -57,7 +57,7 @@ void interseccao(int *A, int *B, int tamanhoA, int tamanhoB){
 		return;
 	}
 	printf("{");
-	for (i=0;i<k;i++) printf("%d\t", inters[i]);
+	for (i=0;i&lt;k;i++) printf("%d\t", inters[i]);
 	printf("}");
 	free(inters);
 }
@@ -69,7 +69,6 @@ int main(){
 	tamanhoA = tamanhoB = 5;
 	interseccao(A, B, tamanhoA, tamanhoB);
 }
-
 </code></pre>
 
 
